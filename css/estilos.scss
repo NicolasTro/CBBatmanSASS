@@ -1,0 +1,53 @@
+/* VARIABLES */
+
+$pesoFuente: bold;
+$colorDeFondo: #005677;
+
+h1 {
+  word-spacing: 15px;
+  text-align: center;
+  font-weight: $pesoFuente;
+}
+
+h1,
+h2 {
+  background-color: #c4c4c4;
+  font-family: "Times New Roman";
+  color: $colorDeFondo;
+  text-transform: uppercase;
+}
+
+dt {
+  font-weight: $pesoFuente;
+}
+
+dd {
+  position: relative;
+  top: -20px;
+  left: 50px;
+}
+
+span {
+  font-style: italic;
+  font-weight: $pesoFuente;
+}
+
+#imagen {
+  text-align: center;
+}
+
+footer {
+  h2 {
+    color: white;
+    background-color: $colorDeFondo;
+    display: inline;
+  }
+}
+
+footer {
+  text-align: center;
+  background-color: $colorDeFondo;
+}
+.insta {
+  margin: 0 20px 0 20px;
+}
